@@ -5,7 +5,7 @@ async function main(){
     console.log(resp)
     document.getElementById("resptxt").textContent = resp;
 }
-function chk(){
+function chk(event){
     if (event.keyCode === 13) { // Check if the key pressed is Enter key
         main();
     }
