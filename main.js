@@ -5,4 +5,9 @@ async function main(){
     console.log(resp)
     document.getElementById("resptxt").textContent = resp;
 }
+function chk(){
+    if (event.keyCode === 13) { // Check if the key pressed is Enter key
+        main();
+    }
+}
 console.log("init");
